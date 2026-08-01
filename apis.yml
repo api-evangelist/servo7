@@ -1,7 +1,27 @@
 aid: servo7
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/servo7.png
 name: Servo7
-description: Servo7 is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Servo7 is a Y Combinator-backed warehouse robotics company that builds
+  AI-powered robots for automating physical material-handling tasks such as
+  loose-loaded container unloading, mixed-pallet palletizing, depalletizing,
+  sortation, and case handling (up to a 20kg payload). Its differentiator is a
+  no-code, demonstration-based deployment model in which an operator shows the
+  robot the task to automate, with no engineers or integration project and no
+  facility redesign required. Servo7 works with logistics providers including
+  CEVA, Stord, DHL, and PostNL. It is a physical-robotics/hardware company and
+  does not currently publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/servo7/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Warehouse Automation
+- Logistics
+- Supply Chain
+- Artificial Intelligence
+- Material Handling
 apis: []
+common:
+- type: Website
+  url: https://servo7.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Confirmed via web: warehouse-robotics hardware company, no-code deployment,
+    no public API/SDK/developer portal. servo7.com/.well-known/security.txt 404;
+    docs.servo7.com DNS not found. No API surface to enrich.
